@@ -1,11 +1,11 @@
-.layout{
+#grid{
     display: grid;
     gap: 1rem;
     grid-template-columns: repeat(4,1fr);
     grid-template-rows: repeat(5,135px);
 }
 
-.layout div{
+#grid div{
     background-color: green;
     color: white;
     font-size: 4vw;
@@ -13,18 +13,18 @@
     padding-left: 1rem;
 }
 
-.one{
+#grid div:nth-child(1){
     grid-column: span 4;
 }
 
-.two{
+#grid div:nth-child(2){
     grid-row: span 4;
 }
 
-.four, .five{
+#grid div:nth-child(4),#grid div:nth-child(4){
     grid-column: span 2;
 }
 
-.ten{
+#grid div:nth-child(10){
     grid-column: span 3;
 }
