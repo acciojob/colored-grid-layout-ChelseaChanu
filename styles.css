@@ -2,7 +2,7 @@
     display: grid;
     gap: 1rem;
     grid-template-columns: repeat(4,1fr);
-    grid-template-rows: repeat(5,135px);
+    grid-template-rows: repeat(5,124px);
 }
 
 #grid div{
@@ -21,7 +21,7 @@
     grid-row: span 4;
 }
 
-#grid div:nth-child(4),#grid div:nth-child(4){
+#grid div:nth-child(4),#grid div:nth-child(5){
     grid-column: span 2;
 }
 
