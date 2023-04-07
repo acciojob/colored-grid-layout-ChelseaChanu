@@ -1,1 +1,30 @@
-/*  your css code here. If applicable */
+.layout{
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(5,135px);
+}
+
+.layout div{
+    background-color: green;
+    color: white;
+    font-size: 4vw;
+    padding-top: 1rem;
+    padding-left: 1rem;
+}
+
+.one{
+    grid-column: span 4;
+}
+
+.two{
+    grid-row: span 4;
+}
+
+.four, .five{
+    grid-column: span 2;
+}
+
+.ten{
+    grid-column: span 3;
+}
